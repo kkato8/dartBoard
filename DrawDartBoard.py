@@ -1,6 +1,4 @@
-# Using turtle graphics to draw a dart board.
-# A sample solution to the Alternate Assignment 2 of CISC101.
-# by Alan McLeod
+# Using turtle graphics to draw a dart board
 
 from turtle import *
 
