@@ -26,10 +26,14 @@ def main() :
         # Draw all slices in layer
         # One slice is 18 degrees of arc
         while sliceCount < 20 :
-            if fillcolor() == "black" :
-                fillcolor("yellow")
+            if fillcolor() == "blue" :
+                fillcolor("red")
+            elif fillcolor() == "red" :
+                fillcolor("blue")
+            elif fillcolor() == "white" :
+            	fillcolor("black")
             else :
-                fillcolor("black")
+            	fillcolor("white")
             begin_fill()
             circle(radius, 18)
             left(90)
@@ -42,17 +46,21 @@ def main() :
             sliceCount = sliceCount + 1
         sliceLayer = sliceLayer + 1
         # Change color so next layer is in opposite colour order
-        if fillcolor() == "black" :
-            fillcolor("yellow")
+        if fillcolor() == "blue" :
+            fillcolor("white")
+        elif fillcolor() == "red" :
+        	fillcolor("black")
+        elif fillcolor() == "white" :
+            fillcolor("blue")
         else :
-            fillcolor("black")
+            fillcolor("red")
 
     # Draw centre circles
     # Black one
     home()
     forward(25)
     left(90)
-    fillcolor("black")
+    fillcolor("red")
     begin_fill()
     circle(25)
     end_fill()
@@ -60,7 +68,7 @@ def main() :
     forward(10)
     # Red one
     right(90)
-    fillcolor("red")
+    fillcolor("black")
     begin_fill()
     circle(15)
     end_fill()
