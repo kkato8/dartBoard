@@ -10,7 +10,7 @@ def main() :
     # Draw slices
     # Draw largest slice layer first and then move inwards
     penup()
-    fillcolor("yellow")
+    fillcolor("blue")
     sliceLayer = 0
     sliceSizes = [300, 280, 150, 130] # pixels
     while sliceLayer < 4 :
