@@ -1,4 +1,6 @@
-# Using turtle graphics to draw a dart board
+# Date: 23/05/17
+# Author: Ken Kato
+# Description: Using turtle graphics to draw a dart board
 
 from turtle import *
 
