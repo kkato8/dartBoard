@@ -4,7 +4,7 @@
 
 from turtle import *
 
-def main() :
+def draw() :
     # Set appearance and speed of turtle
     shape("turtle")
     speed(10)
@@ -78,5 +78,5 @@ def main() :
     # dump = input("Press enter to close.") # Un-comment this line if you run
                                             # the program from the DOS window.
     
-main()    
+draw()    
         
