@@ -9,4 +9,4 @@ This is an exmaple of how to run the code.
 
 This is how the graphic looks like.
 
-![](dartboard.png)
+![](image.png)
