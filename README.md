@@ -1,5 +1,5 @@
 # dartboard
-Using turtle graphics in python to draw a dart board.
+dartboard.py is a python program, which draws a dartboard using turtle graphics.
 
 This is an exmaple of how to run the code.
 
