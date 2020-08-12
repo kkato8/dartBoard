@@ -7,6 +7,6 @@ This is an exmaple of how to run the code.
 >>> python dartboard.py
 ```
 
-This is how the graphics looks like.
+This is how the graphic looks like.
 
 ![](dartboard.png)
